@@ -10,8 +10,8 @@ from firebase_admin import storage
 
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred,{
-    'databaseURL':"https://faceattendancerealtime-cf1cd-default-rtdb.firebaseio.com/",
-    'storageBucket':"faceattendancerealtime-cf1cd.appspot.com"
+  //  'databaseURL':"Enter the URL of your database",
+  //  'storageBucket':"Enter the link for storage bucket"
 })
 
 
