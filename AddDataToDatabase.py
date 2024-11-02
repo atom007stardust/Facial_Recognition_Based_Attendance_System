@@ -4,7 +4,7 @@ from firebase_admin import db
 
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred,{
-    'databaseURL':"https://faceattendancerealtime-cf1cd-default-rtdb.firebaseio.com/"
+    'databaseURL':"Enter your firebase database URL here"
 })
 #create the reference to the database    #within the database create a reference called Students,
 # within students there'll be std ids, within each id there will be additional information of the students
