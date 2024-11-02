@@ -42,9 +42,13 @@ Add a folder named Images in the root directory. Place student images in this fo
 
 ## Project Structure
 ├── Images/                      # Directory containing student images (used to generate face encodings)
+
 ├── EncodeFile.p                 # File storing the encodings and student IDs after processing
+
 ├── face_recognition_attendance.py   # Main script to process images, encode faces, and upload data to Firebase
+
 ├── serviceAccountKey.json       # Firebase Admin SDK credentials (not included for security)
+
 └── README.md                    # Documentation
 
 ## Usage
