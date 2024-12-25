@@ -59,6 +59,7 @@ firebase_admin.initialize_app(cred, {
     'databaseURL': "https://your-database-url.firebaseio.com/",
     'storageBucket': "your-storage-bucket.appspot.com"
 })
+
 Step 2: Run the Main Script
 Execute face_recognition_attendance.py to perform the following tasks:
 
