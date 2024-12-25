@@ -97,7 +97,9 @@ blob.upload_from_filename(fileName)
 
 ## Acknowledgments
 face_recognition Library: Used for easy implementation of face recognition and encoding generation.
+
 Firebase: Provides secure, scalable storage and database solutions for handling image data.
+
 For more details on how to set up Firebase or install dependencies, please refer to the official documentation for each library or tool.
 Special thanks to Murtaza Hassan for his workshop, which provided valuable insights and guidance for this project.
 
